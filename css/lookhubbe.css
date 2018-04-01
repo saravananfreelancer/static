@@ -1,0 +1,329 @@
+body {
+	font-family: 'Quattrocento', serif;
+	font-size: 18px;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 250px; /* remove when correct image recevied*/
+}
+.hidden {
+	display: none !important;
+}
+.vis-hidden{
+	visibility: hidden;
+}
+.carousel-indicators li {
+	width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5)
+}
+.carousel-indicators li:hover {
+	cursor: pointer;
+}
+.carousel-indicators .active {
+	background-color: #fe7492;
+	border: 2px solid #fe7492
+}
+.space-top{
+	margin-top: 20px;
+}
+.space-bottom{
+    margin-bottom: 20px;
+}
+.card-sharp-edge-shadow{
+	border-radius: 0px;
+    box-shadow: 0px 0px 1px 0px #ccc;
+}
+.white-bg {
+	background: #ffffff;
+}
+.lookhubbe-button {
+	width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    line-height: 0px;
+    border-radius: 0px;
+    background: #fe7492;
+    border: none;
+}
+.lookhubbe-color {
+	color: #fe7492;
+}
+.color-white {
+	color: #ffffff;
+}
+.icon-container{
+	position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    height: 100%;
+    width: 40px;
+    background: #fe7492;
+    color: white;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.input-group input{
+    padding-left: 48px;
+}
+.form-control {
+	border-radius: 0px;
+}
+.width-70 {
+	width: 70%;
+}
+.lookhubbe-fb-btn{
+	margin-top: 15px;
+    height: 40px;
+    line-height: 0px;
+    border-radius: 0px;
+    background: #1d6c99;
+    border: none;
+    box-shadow: 1px 1px 0px 0px #ccc;
+    color: white;
+    margin-bottom: 15px;
+}
+.mr-5px{
+	margin-right: 5px
+}
+.circle-box{
+	display: flex;
+    width: 35px;
+    border: 2px solid #fe7492;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10000;
+    background: white;
+}
+.circle-container{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+.box-line{
+	width: 100%;
+    position: absolute;
+    height: 2px;
+    background: #fe7492;
+    z-index: 1;
+}
+.circle-box-white{
+	position: absolute;
+    width: 35px;
+    height: 35px;
+    border: 4px solid #fff;
+    background: transparent;
+    display: flex;
+    box-sizing: content-box;
+    z-index: 1;
+}
+.country-box {
+	    width: 75px;
+    background: white;
+    border: 1px solid #ccc;
+}
+.country-box select{
+	width: 45px;
+    padding: 0px;
+    border-left: none;
+}
+.img-logo{
+	    padding: 3px;
+    width: 30px
+}
+.phone-box input{
+	    padding-left: 80px;
+}
+.mt-15px{
+	    margin-top: 15px;
+}
+.about-us {
+	background: #262626;
+    padding: 20px;
+}
+.about-us .heading{
+	color: white;
+    text-align: center;
+}
+.lookhubbe-active{
+	border-bottom: 3px solid #fe7492;
+}
+.about-us-desc{
+	    font-size: 15px;
+    text-align: center;
+}
+.footer{
+	    background: #4f4f4f;
+    padding: 10px;
+    text-align: center;
+}
+.copyright{
+	    color: white;
+    font-size: 13px;
+}
+.cmp-logo{
+
+}
+.header{
+	    padding: 10px;
+    text-align: center;
+}
+.navbar-nav{
+	margin:0 auto;
+}
+.menu-item .nav-item {
+    font-size: 30px;
+    margin-right: 75px;
+}
+.menu-item .nav-item:last-child {
+	margin-right: 0px;
+}
+.nav-item a{
+
+    color: #777;
+}
+.nav-item.active a{
+	color: #fe7492;
+	border-bottom: 2px solid #fe7492
+}
+.user-menu
+{
+	    padding: 6px;
+    font-size: 15px;
+    background: #fe7492;
+    border-radius: 17px;
+    color: white !important;
+    min-width: 100px;
+    text-align: center;
+}
+.circle-gallery-white{
+
+}
+.image-box-header{
+	    background: #fe7492;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+        padding: 5px;
+}
+.circle-gallery-white{
+	    margin-left: 10px;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.circle-gallery-white i {
+	    margin-top: 8px;
+}
+.image-body img{
+	    width: 100%;
+    height: 180px;
+}
+.image-footer{
+	    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+}
+.image-box {
+	position: relative;
+}
+.border-right-white {
+ border-right: 1px solid #fff;
+}
+.border-bt-rad{
+	    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.galley-box {
+	margin-bottom: 30px
+}
+.social .list-inline-item a {
+    color: white;
+    display: inline-block;
+    width: 44px;
+    padding: 12px;
+    border: 1px solid #555;
+    text-align: center;
+}
+.social .list-inline-item .active {
+	border: 1px solid #fe7492;
+}
+.pages .list-inline-item a{
+	color: white;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+
+}
+.modal-dialog{
+	/*margin:0 auto;*/
+}
+.galley-pop-up .modal-header{
+	padding: 5px;
+	background: #fe7492
+}
+.galley-pop-up .modal-header .circle-gallery-white i{
+	color: #fe7492
+}
+
+.galley-pop-up .modal-header .close{
+	color: white;
+    font-size: 25px;
+        opacity: 1;
+}
+.galley-pop-up .modal-header .date{
+	color: white
+}
+.pink{
+	color: #fe7492
+}
+.black{
+	color: #000
+}
+.cnt {
+	    font-size: 13px;
+	        margin-top: 5px;
+}
+.lookhubbe{
+	height: 3px;
+	margin-bottom: 10px;
+	width: 75%;
+	    margin-top: 8px;
+}
+.lookhubbe .lookhubbe-pink{
+	background: #fe7492
+}
+.lookhubbe .lookhubbe-black{
+	background: #000;
+}
+.cnt-views{
+	font-size: 13px;
+	        margin-top: 2px;
+
+}
+
+.icon-footer{
+	margin-top: 10px;
+	text-align: center;
+}
+.icon-footer .round{
+	background: #fff;
+    display: inline-block;
+    padding-top: 6px;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0px 0px 2px 1px #ccc;
+}
