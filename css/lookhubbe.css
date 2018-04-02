@@ -2,6 +2,27 @@ body {
 	font-family: 'Quattrocento', serif;
 	font-size: 18px;
 }
+form{
+	width:100%;
+}
+button{
+	cursor:pointer;	
+}
+.container{
+	width: 968px;
+}
+.color-pink{
+	color:#fe7492;
+}
+.color-white{
+	color:#ffffff;
+}
+.bg-pink{
+	background:#fe7492;
+}
+.border-pink{
+	border:1px solid #fe7492;
+}
 .carousel-inner img {
       width: 100%;
       height: 250px; /* remove when correct image recevied*/
@@ -11,6 +32,9 @@ body {
 }
 .vis-hidden{
 	visibility: hidden;
+}
+img{
+	width:100%;
 }
 .carousel-indicators li {
 	width: 12px;
@@ -311,7 +335,7 @@ body {
 }
 .cnt-views{
 	font-size: 13px;
-	        margin-top: 2px;
+	margin-top: 2px;
 
 }
 
@@ -326,4 +350,52 @@ body {
     border-radius: 50%;
     padding: 12px;
     box-shadow: 0px 0px 2px 1px #ccc;
+}
+.prebook form button{
+	float:right;
+}
+.lb-hidden{
+	visibility:hidden;
+}
+.jumbo-border{
+	border: 1px solid #fe7492;
+    padding: 20px;
+	position:relative;
+	margin-bottom: 30px;
+}
+.jumbo-border h5{
+	font-weight: bold;
+	position: absolute;
+	top: -11px;
+	background: #ffffff;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.prebook-location span{
+	padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.prebook-location i{
+	width: 19px;
+}
+.prebook-icon-sec{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fe7492;
+	margin-bottom: 5px;
+}
+.prebook-icon-sec i{
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.jumbo-border button:hover{
+	color:#ffffff;
+	background:#fe7492;
+}
+.prebook-wrapper{
+	background: #f3f3f3;
+	padding: 50px;
 }
