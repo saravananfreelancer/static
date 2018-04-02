@@ -1,3 +1,8 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
 body {
 	font-family: 'Quattrocento', serif;
 	font-size: 18px;
@@ -376,6 +381,9 @@ img{
     font-size: 14px;
     font-weight: bold;
 }
+.cmp-logo {
+    width: 75px;
+}
 .prebook-location i{
 	width: 19px;
 }
@@ -398,4 +406,22 @@ img{
 .prebook-wrapper{
 	background: #f3f3f3;
 	padding: 50px;
+}
+.custom-control-input:checked~.custom-control-indicator{
+    background-color: #fe7492 !important
+}
+.navbar {
+    flex-direction: unset;
+}
+
+.carousel-indicators li {
+    -webkit-box-flex: none !important;
+    -webkit-flex: none !important;
+    -ms-flex: 1none !important
+}
+.mt-5px {
+    margin-top: 5px
+}
+.ml-5px {
+    margin-left:5px;
 }
